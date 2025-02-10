@@ -81,15 +81,15 @@ go build -o clipboard_daemon.go
 go build -o cliboard_ui.go
 ```
 
-L'application s'ouvrira avec une interface graphique simple pour gérer votre historique de presse-papiers.
-
 ### 5. Compiler l'application (optionnel)
 
 Pour créer un exécutable :
 
 ```bash
-go build -o gestionnaire-presse-papiers
-./gestionnaire-presse-papiers
+go build -o clipboard_daemon.go
+go build -o cliboard_ui.go
+./clipboard_daemon
+./clipboard_ui.go
 ```
 
 ### 6. Ajouter clipboard_daemon aux fichiers de démarrage
