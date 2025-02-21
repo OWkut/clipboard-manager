@@ -74,14 +74,7 @@ Ajouter:
 xbindkeys
 ```
 
-### 4. Exécuter l'application
-
-```bash
-go build -o clipboard_daemon.go
-go build -o cliboard_ui.go
-```
-
-### 5. Compiler l'application (optionnel)
+### 4. Compiler l'application (optionnel)
 
 Pour créer un exécutable :
 
@@ -92,7 +85,7 @@ go build -o cliboard_ui.go
 ./clipboard_ui.go
 ```
 
-### 6. Ajouter clipboard_daemon aux fichiers de démarrage
+### 5. Ajouter clipboard_daemon aux fichiers de démarrage
 
 #### i.Tester le daemon:
 
